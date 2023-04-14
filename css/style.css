@@ -1,0 +1,75 @@
+.nav-left {
+    text-decoration: none;
+    font-size: 60px;
+    font-family: var(--font1);
+    text-align: center;
+    /* margin-top: 30px; */
+
+}
+
+.nav {
+    background-color: red;
+}
+
+.home {
+    background-color: green;
+    height: 100%;
+
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.content {
+    /* opacity: 50%; */
+    display: flex;
+}
+.content-left {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: var(--font2);
+
+    
+}
+.content-right{
+    
+    width: 100vw;
+    height: 60vw;
+    opacity: 30%;
+    background-image: url('../imgs/bankbg.jpg');
+    position: absolute;
+}
+
+.container {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.login {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(202, 201, 201);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    margin: 30px 10px;
+    padding: 50px;
+    flex-direction: column;
+    box-shadow:  5px 10px #e6e6e6;
+    transition:  0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+.inputBox {
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+}
